@@ -28,3 +28,13 @@ Not: Bazı Termux sürümlerinde `python` yerine `python3` kullanmanız gerekebi
 ```bash
 python3 main.py
 ```
+
+---
+
+## TikTok
+
+Takip et: **@titana145**
+
+---
+
+**Yapımcı:** titana145
