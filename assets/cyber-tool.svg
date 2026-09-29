@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Cyber terminal banner">
+  <defs>
+    <filter id="crtGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#18e6ff" flood-opacity="1"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#18e6ff" flood-opacity="0.7"/>
+    </filter>
+    <filter id="scanlines" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.80" numOctaves="1" seed="3"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.05"/>
+      </feComponentTransfer>
+    </filter>
+    <style>
+      .cyber-title {
+        fill: #28f1ff;
+        font-family: "Courier New", monospace;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+      .text-plain {
+        fill: #d7d7d7;
+        font-family: "Courier New", monospace;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .green { fill: #27ff9c; }
+      .red { fill: #ff4d4d; }
+      .blue { fill: #39b8ff; }
+      .magenta { fill: #ff6ae3; }
+      .yellow { fill: #ffde59; }
+      .orange { fill: #ff9e46; }
+      .pink { fill: #ff79b0; }
+      .border { fill: none; stroke: #4f4dff; stroke-width: 3; }
+      .panel { fill: rgba(8, 12, 40, 0.75); stroke: #4f4dff; stroke-width: 3; }
+      .panel-head { fill: rgba(14, 20, 52, 0.9); }
+      .row { fill: #d2d2d2; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#000000"/>
+  <rect width="1600" height="900" fill="#000" filter="url(#scanlines)" opacity="0.2"/>
+
+  <g filter="url(#crtGlow)">
+    <text x="32" y="150" class="cyber-title" font-size="220" transform="scale(1.0 0.9)">CYBER</text>
+  </g>
+
+  <g class="text-plain">
+    <text x="110" y="275" fill="#28f1ff">CYBER TOOL</text>
+    <text x="210" y="306" fill="#d7d7d7">v7.0.0</text>
+
+    <text x="110" y="350" fill="#d7d7d7">Kurucu:</text>
+    <text x="250" y="350" fill="#28f1ff">CAN</text>
+
+    <text x="110" y="390" fill="#d7d7d7">Sistem :</text>
+    <text x="250" y="390" fill="#31ff7d">Android 13</text>
+
+    <text x="110" y="430" fill="#d7d7d7">Python :</text>
+    <text x="250" y="430" fill="#32b9ff">3.13.13</text>
+
+    <text x="110" y="470" fill="#d7d7d7">Tarih :</text>
+    <text x="250" y="470" fill="#ffba5c">2026-09-29 23:08:39</text>
+  </g>
+
+  <g>
+    <rect x="90" y="540" width="930" height="255" class="panel" rx="0"/>
+    <rect x="90" y="540" width="930" height="42" class="panel-head"/>
+    <text x="410" y="570" class="text-plain" fill="#d7d7d7" text-anchor="middle" style="font-size: 28px;">CYBER ANA MENÜ</text>
+
+    <g class="text-plain" style="font-size: 23px;">
+      <text x="120" y="610" fill="#7dffea">[1]</text>
+      <text x="180" y="610" fill="#ffffff">IP SORGU</text>
+      <text x="390" y="610" fill="#65dafb">→</text>
+      <text x="430" y="610" fill="#d7d7d7">Konum, ISP, DNS, cihaz, proxy</text>
+
+      <text x="120" y="660" fill="#7dffea">[2]</text>
+      <text x="180" y="660" fill="#ffffff">DOS SALDIRISI</text>
+      <text x="390" y="660" fill="#65dafb">→</text>
+      <text x="430" y="660" fill="#d7d7d7">600 thread, GET/POST/HEAD, süreli</text>
+
+      <text x="120" y="710" fill="#7dffea">[3]</text>
+      <text x="180" y="710" fill="#ffffff">WEB ANALIZ</text>
+      <text x="390" y="710" fill="#65dafb">→</text>
+      <text x="430" y="710" fill="#d7d7d7">index, admin, DNS, açık dosyalar</text>
+
+      <text x="120" y="760" fill="#7dffea">[4]</text>
+      <text x="180" y="760" fill="#ffffff">SMS BOMBER</text>
+      <text x="390" y="760" fill="#65dafb">→</text>
+      <text x="430" y="760" fill="#d7d7d7">Normal / Turbo, 90+ Türk servisi</text>
+
+      <text x="120" y="810" fill="#ff5555">[0]</text>
+      <text x="180" y="810" fill="#ffffff">ÇIKIŞ</text>
+    </g>
+
+    <rect x="90" y="540" width="930" height="255" class="border" rx="0"/>
+  </g>
+
+  <g class="text-plain" fill="#d7d7d7">
+    <text x="130" y="845">Seçim</text>
+    <text x="240" y="845" fill="#7dffea">&gt;</text>
+    <rect x="300" y="832" width="26" height="18" fill="#d9d9d9"/>
+  </g>
+</svg>
