@@ -1,7 +1,5 @@
 # Depo
 
-https://github.com/cyberorji/Turmearaclari.git
-
 ![Cyber Tool](assets/cyber-tool.svg)
 
 ---
