@@ -1,0 +1,2 @@
+# CYBER v3.0.0 - Tüm modüller Python standart kütüphanesi kullanır.
+# Ek paket gerekmez. Ham soket (DDoS SYN/UDP) için root gerekir.
