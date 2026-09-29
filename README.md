@@ -4,7 +4,7 @@
 
 ---
 
-# Turmearaclari
+# termuxaraclari
 
 Termux kullanıcıları için çok amaçlı araç.
 
@@ -13,7 +13,7 @@ Termux kullanıcıları için çok amaçlı araç.
 Aşağıdaki komutu kopyala, Termux'a yapıştır ve çalıştır:
 
 ```bash
-pkg update && pkg upgrade -y && pkg install python git -y && git clone https://github.com/cyberorji/Turmearaclari.git && cd Turmearaclari && pip install -r requirements.txt && python main.py
+pkg update && pkg upgrade -y && pkg install python git -y && git clone https://github.com/cyberorji/termuxaraclari.git && cd termuxaraclari && pip install -r requirements.txt && python main.py
 ```
 
 Eğer otomatik kurulum çalışmazsa, adım adım şu komutları gir:
@@ -23,8 +23,8 @@ pkg update
 pkg upgrade -y
 pkg install python git -y
 
-git clone https://github.com/cyberorji/Turmearaclari.git
-cd Turmearaclari
+git clone https://github.com/cyberorji/termuxaraclari.git
+cd termuxaraclari
 pip install -r requirements.txt
 python main.py
 ```
